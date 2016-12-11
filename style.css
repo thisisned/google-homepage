@@ -8,6 +8,15 @@ body {
 	color: #616161;
 }
 
+a {
+	color: inherit;
+	text-decoration: inherit;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
 .logo {
 	position: relative;
 	top: 50%;
@@ -85,11 +94,17 @@ input[type=text] {
 li img {
 	display: inline-block;
 	vertical-align: middle;
+	opacity: 0.55;
+}
+
+li img:hover {
+	opacity: 1;
 }
 
 #profile-picture {
 	height: 35px;
 	border-radius: 50px;
+	opacity: 1;
 }
 
 .footer {
